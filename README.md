@@ -15,7 +15,7 @@ uv run main.py
 ### Method 2: Using UV tool command
 
 ```bash
-uv tool run --from git+https://github.com/timelessp/airshipzero main.py
+uv tool run --from git+https://github.com/timelessp/airshipzero airshipzero
 ```
 
 ### Method 3: Traditional pip installation
