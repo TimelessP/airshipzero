@@ -40,6 +40,37 @@ airshipzero
 - Python 3.10+
 - UV package manager (recommended)
 
+### Installing UV
+
+UV is a fast Python package manager. Install it using one of these methods:
+
+**Linux/macOS:**
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+**Windows (PowerShell):**
+```powershell
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+**Alternative methods:**
+```bash
+# Using pip
+pip install uv
+
+# Using pipx
+pipx install uv
+
+# Using Homebrew (macOS)
+brew install uv
+
+# Using Scoop (Windows)
+scoop install uv
+```
+
+For more installation options, see the [UV documentation](https://docs.astral.sh/uv/getting-started/installation/).
+
 ## Documentation
 
 See [data-model.md](data-model.md) for complete game design and system specifications.
