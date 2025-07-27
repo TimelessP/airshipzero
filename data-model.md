@@ -3101,15 +3101,16 @@ airshipzero/
 
 ### UV Integration & Distribution
 
-**Simple Installation & Running:**
+**Simple Installation & Running (with your own fork):**
 ```bash
-# Install and run directly from GitHub
-uv run --from git+https://github.com/timelessp/airshipzero main.py
+# Fork the repository on GitHub to your own account first
+# Then install and run directly from your fork
+uv tool run --from git+https://github.com/YOUR_USERNAME/airshipzero airshipzero
 
-# Or clone and run locally
-git clone https://github.com/timelessp/airshipzero
+# Or clone your fork and run locally
+git clone https://github.com/<your-github-username>/airshipzero
 cd airshipzero
-uv run main.py
+uv run airshipzero
 ```
 
 **pyproject.toml Configuration:**
