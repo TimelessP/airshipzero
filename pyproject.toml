@@ -2,8 +2,8 @@
 name = "airshipzero"
 version = "0.1.0"
 description = "Realistic airship flight simulator with complex systems management"
-authors = [{name = "Airship Zero Team"}]
-requires-python = ">=3.10"
+authors = [{name = "Timeless Prototype"}]
+requires-python = ">=3.12"
 dependencies = [
     "pygame>=2.5.0",
     "numpy>=1.24.0",
