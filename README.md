@@ -4,18 +4,25 @@ A realistic airship flight simulator with complex systems management.
 
 ## Quick Start
 
-Install and run directly using UV:
-
-```bash
-uv run --from git+https://github.com/timelessp/airshipzero main.py
-```
-
-Or clone and run locally:
+### Method 1: Clone and run locally
 
 ```bash
 git clone https://github.com/timelessp/airshipzero
 cd airshipzero
 uv run main.py
+```
+
+### Method 2: Using UV tool command
+
+```bash
+uv tool run --from git+https://github.com/timelessp/airshipzero main.py
+```
+
+### Method 3: Traditional pip installation
+
+```bash
+pip install git+https://github.com/timelessp/airshipzero
+airshipzero
 ```
 
 ## Features
