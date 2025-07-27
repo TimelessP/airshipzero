@@ -150,7 +150,7 @@ uv run ruff check .
 ## Share Your Progress
 
 Built something awesome? Share it!
-- Tag your repo with `#airshipzero-challenge`
+- Tag your repo with `#airshipzerochallenge`
 - Document your AI agent approach
 - Show before/after comparisons
 - Contribute improvements back upstream
